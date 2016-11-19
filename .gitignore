@@ -1,0 +1,6 @@
+git/gitconfig.local.symlink
+
+vim/autoload
+vim/plugin
+
+Brewfile.lock.json
