@@ -1,20 +1,11 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
-tap 'homebrew/binary'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/dupes'
-tap 'homebrew/x11'
-tap 'motemen/ghq'
-
 # install tools & utilities
 brew 'aircrack-ng'
 brew 'ansible'
 brew 'autoconf'
 brew 'autojump'
 brew 'automake'
-brew 'bchunk'
 brew 'binutils'
 brew 'cmake'
 brew 'colordiff'
@@ -64,17 +55,6 @@ brew 'luajit'
 brew 'node'
 brew 'python'
 brew 'pyenv-virtualenv'
-brew 'scala'
-brew 'sbt'
-brew 'typesafe-activator'
 
 # install applications
 cask 'java' unless system '/usr/libexec/java_home --failfast'
-
-mas '1Password',                id: 443987910
-mas 'Caffeine',                 id: 411246225
-mas 'FreeMan',                  id: 510934532
-mas 'ForkLift',                 id: 412448059
-mas 'JPEGmini',                 id: 498944723
-mas 'Microsoft Remote Desktop', id: 715768417
-mas 'The Unarchiver',           id: 425424353
