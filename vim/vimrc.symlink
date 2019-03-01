@@ -32,7 +32,6 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "*****************************************************************************
 "" NeoBundle install packages
 "*****************************************************************************
-NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'gtags/gtags'
 NeoBundle 'kien/ctrlp.vim'
@@ -50,6 +49,9 @@ NeoBundle 'Shougo/vimproc.vim', {
     \    },
     \ }
 
+"" Git
+NeoBundle 'airblade/vim-gitgutter'
+set updatetime=1
 
 "" Color
 NeoBundle 'tomasr/molokai'
