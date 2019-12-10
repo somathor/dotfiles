@@ -49,7 +49,9 @@ brew 'redis'
 brew 'sqlite'
 
 # programming languages & frameworks
+brew 'ant'
 brew 'go'
+brew 'gradle'
 brew 'lua'
 brew 'luajit'
 brew 'node'
